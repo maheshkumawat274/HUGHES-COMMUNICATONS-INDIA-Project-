@@ -1,0 +1,119 @@
+.navtext{
+    font-size: 40px;
+}
+.Contact{
+    position: relative;
+    top: 50px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input{
+    margin-top: 5px;
+}
+.banner{
+    height: 135vh;
+    background-image: url(images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.space{
+    padding: 0;
+    margin: 0;
+}
+
+.formpart{
+    opacity: 0.6;
+}
+.brod{
+    height: 100vh;
+    width: 100%;
+}
+@media  (max-width:1215px){
+    .banner{
+        height: 155vh;
+    }
+}
+@media  (max-width:768px){
+    .banner{
+        height: 160vh;
+    }
+    .Contact{
+        position: relative;
+        top: 0px;
+    }
+}
+@media  (max-width:585px){
+    .banner{
+        height: 175vh;
+    }
+}
+.imgwt{
+    height: 50px;
+    width: 70px;
+    align-self: center;
+    padding-top: 10px;
+}
+.magic{
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+.plan{
+    height: 40vh;
+    width: 70%;
+    background-image: url(images/plan.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 15%;
+}
+.cont{
+    float: right;
+    text-decoration: none; 
+    color: black;
+}
+@media (max-width:930px) {
+    .demo{
+        font-size: 25px;
+    }
+}
+.Myform{
+    border-radius: 10px;
+}
+@media (max-width:1080px) {
+    .Myform{
+        height: 650px;
+    }
+    input{
+        margin: -2px;
+    }
+    
+}
+@media (max-width:768px) {
+    .Myform{
+        height: 600px;
+    }
+    input{
+        margin: -4px;
+    }
+}
+@media (max-width:512px) {
+    
+    input{
+        margin: -5px;
+    }
+}
+@media (min-width: 1079px) and (max-width: 1170px){
+    .Myform{
+        height: 650px;
+    }
+    input{
+        margin: -3px;
+    }
+}
+
